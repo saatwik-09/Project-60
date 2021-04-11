@@ -51,3 +51,14 @@ html {
     text-decoration: underline;
 }
 
+
+img {
+    height: 500px;
+    width: 500px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
